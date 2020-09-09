@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="magic.css">
+    <title>Chill</title>
+</head>
+<body>
+    <nav></nav>
+
+    <section>
+        <div class="container header"> 
+            <h1 id="text">Wanna try switching on the light bulb?</h1>
+        </div>
+
+        <div class="body">
+            <div class="container bulb">
+                <h5>Click the button to see the 'magic'...</h5>
+                <div id="bulb">
+                    <img id="bulb_img" src="images/off.png" >
+                </div>
+            </div>
+            <div class="button">
+                <button id="bluboff" onclick=switch_status(1)>Too much light</button>
+                <button id="blubon" onclick=switch_status(0)>Light my world</button>
+            </div> 
+        </div>
+
+    </section>
+    <div class="footer">
+    
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
